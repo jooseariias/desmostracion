@@ -63,9 +63,15 @@
     "form": {
       "title": "Contáctanos",
       "namePlaceholder": "Nombre",
-      "emailPlaceholder": "Correo electrónico",
+      "emailPlaceholder": "email@gmail.com",
+      "passwordPlaceholder": "*********",
+      "email":"Correo electrónico",
+      "password":"Contraseña",
       "messagePlaceholder": "Mensaje",
-      "submitButton": "Enviar"
+      "submitButton": "Enviar",
+      "enter":"Ingresar",
+      "passwordOlvidate":"¿Olvidaste tu contraseña?",
+      "recover":"Recuperar"
     }
   }
 }

@@ -3,6 +3,7 @@ import i18n from "./Config/i18n";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LandingPage from "@/Pages/LandingPage";
+import Login from "@/Pages/Login";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/Login" element={<Login />} />
         </Routes>
       </Router>
     </I18nextProvider>

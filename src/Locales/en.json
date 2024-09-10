@@ -63,9 +63,15 @@
     "form": {
       "title": "Contact Us",
       "namePlaceholder": "Name",
-      "emailPlaceholder": "Email",
+      "emailPlaceholder": "email@gmail.com",
+      "passwordPlaceholder": "*********",
       "messagePlaceholder": "Message",
-      "submitButton": "Send"
+      "submitButton": "Send",
+      "enter":"Get Into",
+      "passwordOlvidate":"Forgot your password?",
+      "recover":"Recover",
+      "password":"Password",
+      "email":"Email"
     }
   }
 }

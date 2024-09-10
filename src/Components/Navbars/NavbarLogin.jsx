@@ -2,7 +2,7 @@ import { IoLanguage } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-export default function LandingNavbar() {
+export default function NavbarLogin() {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -32,13 +32,7 @@ export default function LandingNavbar() {
                 {i18n.language === "es" ? "En" : "Es"}
               </span>
             </button>
-            <div className="bg-gray-300 w-[1px] h-5 "></div>
-            <Link
-              to="/Login"
-              className="text-gray-700 hover:text-blue-600 transition font-semibold"
-            >
-              {t("navbar.login")}
-            </Link>
+            
           </div>
         </div>
       </nav>
