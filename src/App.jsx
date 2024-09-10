@@ -97,21 +97,25 @@ const LandingPage = () => {
         </div>
       </nav>
 
-      <header className=" flex h-[90vh] header-background items-center justify-center relative mt-[4rem] bg-cover bg-center" >
-        <div className="relative z-10 text-center text-white">
-          <h1 className="text-4xl font-bold md:text-6xl">
-            Bienvenido a E-Numbers
-          </h1>
-          <p className="mt-4 text-lg md:text-xl">
-            Una empresa especializada en Estrategias Financieras y Fiscales
-          </p>
-          <div className="mt-8">
-            <button className="bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105">
-              Empezar ahora
-            </button>
-          </div>
-        </div>
-      </header>
+      <header className="relative flex flex-col h-[100vh] bg-gradient-to-b from-blue-500 to-white items-center justify-center text-center text-blue-800 overflow-hidden">
+  <div className="relative z-10 px-6">
+    <h1 className="text-4xl font-bold md:text-6xl mb-4">
+      Bienvenido a E-Numbers
+    </h1>
+    <p className="text-lg md:text-xl mb-8">
+      Una empresa especializada en Estrategias Financieras y Fiscales
+    </p>
+    <button className="bg-blue-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition-transform transform hover:scale-105">
+      Empezar ahora
+    </button>
+  </div>
+  <div className="absolute bottom-0 left-0 right-0 overflow-hidden">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" className="w-full h-[200px] fill-current text-[#a4caec]">
+      <path d="M0.00,49.98 C104.68,259.05 174.09,25.17 500.27,2.48 L500.00,150.00 L0.00,150.00 Z" />
+    </svg>
+  </div>
+</header>
+
 
       {/* Services Section */}
       <section id="services" className="py-16 bg-gray-100">
@@ -183,9 +187,9 @@ const LandingPage = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Visión</h3>
                 <p className="text-gray-700">
-                  Ser líderes en el ámbito de la consultoría financiera y fiscal,
-                  reconocidos por nuestra excelencia, innovación y compromiso con
-                  la satisfacción del cliente.
+                  Ser líderes en el ámbito de la consultoría financiera y
+                  fiscal, reconocidos por nuestra excelencia, innovación y
+                  compromiso con la satisfacción del cliente.
                 </p>
               </div>
             </div>
@@ -200,7 +204,9 @@ const LandingPage = () => {
           </h2>
           <div className="flex flex-col md:flex-row justify-center">
             <div className="bg-white rounded-lg shadow-lg p-6 mb-8 md:mb-0 md:w-1/2 lg:w-1/3">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Síguenos en WhatsApp</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                Síguenos en WhatsApp
+              </h3>
               <a
                 href="https://wa.me/1234567890"
                 className="flex items-center text-green-500 hover:text-green-600 transition"
@@ -210,12 +216,10 @@ const LandingPage = () => {
               </a>
             </div>
             <div className="bg-white rounded-lg shadow-lg p-6 md:w-1/2 lg:w-1/3">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Contáctanos</h3>
-              <form
-                action="#"
-                method="post"
-                className="flex flex-col gap-4"
-              >
+              <h3 className="text-xl font-bold mb-4 text-gray-800">
+                Contáctanos
+              </h3>
+              <form action="#" method="post" className="flex flex-col gap-4">
                 <input
                   type="text"
                   name="name"
@@ -251,20 +255,15 @@ const LandingPage = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left">
               <p className="text-sm">
-                &copy; {new Date().getFullYear()} E-Numbers. Todos los derechos reservados.
+                &copy; {new Date().getFullYear()} E-Numbers. Todos los derechos
+                reservados.
               </p>
             </div>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition"
-              >
+              <a href="#" className="text-gray-400 hover:text-white transition">
                 Política de Privacidad
               </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-white transition"
-              >
+              <a href="#" className="text-gray-400 hover:text-white transition">
                 Términos y Condiciones
               </a>
             </div>
