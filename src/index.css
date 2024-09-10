@@ -20,3 +20,22 @@
   animation: gradientAnimation 15s ease infinite;
 }
 
+/* Estilo para navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 13px; /* Ancho del scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color del fondo del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0184ff; /* Color del pulgar (la parte que se desplaza) */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #01b2f8; /* Color del pulgar al pasar el mouse */
+}
+
+

@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Home",
+    "login": "Login",
+    "language": "en"
+  },
+  "header": {
+    "welcome": "Welcome to E-Numbers",
+    "description": "A company specialized in Financial and Tax Strategies",
+    "startNow": "Start Now"
+  },
+  "services": {
+    "title": "Our Services",
+    "viewMore": "View More",
+    "viewLess": "View Less",
+    "items": [
+      {
+        "title": "Tax Planning",
+        "description": "Strategies to minimize tax burdens within the law. Optimization of tax deductions and advice on local, state, federal, and international taxes."
+      },
+      {
+        "title": "Financial Strategies",
+        "description": "Investment advice to maximize financial returns. Short and long-term financial planning. Financial risk management."
+      },
+      {
+        "title": "Business Consulting",
+        "description": "Advice on the type of legal entity to form and recommendations on which states or countries to establish a company to optimize tax and regulatory benefits."
+      },
+      {
+        "title": "Wealth Management",
+        "description": "Advice for the protection of personal and corporate assets, inheritance and succession planning, and capital preservation strategies."
+      },
+      {
+        "title": "Tax Compliance",
+        "description": "Preparation and filing of tax returns, handling tax audits, and advising on compliance with tax regulations."
+      },
+      {
+        "title": "Mergers and Acquisitions Consulting",
+        "description": "Tax and financial evaluation of acquisitions and mergers, tax planning in business purchase-sale transactions, and financial and tax optimization in corporate restructurings."
+      },
+      {
+        "title": "Internationalization Planning",
+        "description": "Tax and financial advice for companies looking to expand internationally. Analysis of tax treaties between countries. Strategies to avoid double taxation and maximize global tax benefits."
+      },
+      {
+        "title": "Personal Financial Consulting",
+        "description": "Retirement planning and long-term savings. Debt and credit analysis and optimization. Financial education strategies."
+      }
+    ]
+  },
+  "missionVision": {
+    "missionTitle": "Mission",
+    "missionDescription": "To provide comprehensive solutions in financial and tax strategies, helping our clients achieve their economic goals and secure a prosperous and stable future.",
+    "visionTitle": "Vision",
+    "visionDescription": "To be leaders in financial and tax consulting, recognized for our excellence, innovation, and commitment to customer satisfaction."
+  },
+  "contact": {
+    "title": "Contact",
+    "whatsapp": {
+      "title": "Follow us on WhatsApp",
+      "message": "Send message"
+    },
+    "form": {
+      "title": "Contact Us",
+      "namePlaceholder": "Name",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Message",
+      "submitButton": "Send"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "login": "Iniciar Sesión",
+    "language": "es"
+  },
+  "header": {
+    "welcome": "Bienvenido a E-Numbers",
+    "description": "Una empresa especializada en Estrategias Financieras y Fiscales",
+    "startNow": "Empezar ahora"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "viewMore": "Ver Más",
+    "viewLess": "Ver Menos",
+    "items": [
+      {
+        "title": "Planificación Fiscal",
+        "description": "Estrategias para minimizar la carga tributaria dentro de la ley. Optimización de deducciones fiscales y asesoría sobre impuestos locales, estatales, federales e internacionales."
+      },
+      {
+        "title": "Estrategias Financieras",
+        "description": "Asesoría en inversiones para maximizar el rendimiento financiero. Planificación financiera a corto y largo plazo. Gestión de riesgos financieros."
+      },
+      {
+        "title": "Consultoría Empresarial",
+        "description": "Asesoramiento sobre el tipo de entidad jurídica a formar y recomendaciones sobre en qué estados o países establecer una empresa para optimizar los beneficios fiscales y regulatorios."
+      },
+      {
+        "title": "Gestión de Patrimonios",
+        "description": "Asesoría para la protección de activos personales y corporativos, planificación de herencias y sucesiones, y estrategias de preservación de capital."
+      },
+      {
+        "title": "Cumplimiento Fiscal",
+        "description": "Preparación y presentación de declaraciones de impuestos, manejo de auditorías fiscales, y asesoría en el cumplimiento de las normativas tributarias."
+      },
+      {
+        "title": "Asesoría en Fusiones y Adquisiciones",
+        "description": "Evaluación fiscal y financiera de adquisiciones y fusiones, planificación fiscal en transacciones de compra-venta de empresas, y optimización financiera y fiscal en reestructuraciones corporativas."
+      },
+      {
+        "title": "Planificación para la Internacionalización",
+        "description": "Asesoría fiscal y financiera para empresas que buscan expandirse internacionalmente. Análisis de tratados fiscales entre países. Estrategias para evitar la doble imposición y maximizar los beneficios fiscales globales."
+      },
+      {
+        "title": "Consultoría Financiera Personal",
+        "description": "Planificación para la jubilación y ahorro a largo plazo. Análisis y optimización de deudas y créditos. Estrategias para la educación financiera."
+      }
+    ]
+  },
+  "missionVision": {
+    "missionTitle": "Misión",
+    "missionDescription": "Proporcionar soluciones integrales en estrategias financieras y fiscales, ayudando a nuestros clientes a alcanzar sus metas económicas y a asegurar un futuro próspero y estable.",
+    "visionTitle": "Visión",
+    "visionDescription": "Ser líderes en el ámbito de la consultoría financiera y fiscal, reconocidos por nuestra excelencia, innovación y compromiso con la satisfacción del cliente."
+  },
+  "contact": {
+    "title": "Contacto",
+    "whatsapp": {
+      "title": "Síguenos en WhatsApp",
+      "message": "Enviar mensaje"
+    },
+    "form": {
+      "title": "Contáctanos",
+      "namePlaceholder": "Nombre",
+      "emailPlaceholder": "Correo electrónico",
+      "messagePlaceholder": "Mensaje",
+      "submitButton": "Enviar"
+    }
+  }
+}
