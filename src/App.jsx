@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { FaBullseye, FaWhatsapp } from "react-icons/fa";
-import { GiTargetArrows, GiAchievement } from "react-icons/gi";
+import { GiTargetArrows } from "react-icons/gi";
 import { IoLanguage } from "react-icons/io5";
 
-import portada from "./assets/portada.jpg";
 import img2 from "./assets/img2.jpg";
 import img3 from "./assets/img3.jpg";
 import img4 from "./assets/img4.jpg";
@@ -70,8 +69,8 @@ const LandingPage = () => {
   const visibleServices = showAll ? servicesData : servicesData.slice(0, 4);
 
   return (
-    <div>
-      <nav className="bg-white shadow-lg fixed top-0 z-50 w-full py-4">
+    <div className="font-sans text-gray-900">
+      <nav className="bg-white shadow-md fixed top-0 z-50 w-full py-4">
         <div className="container mx-auto flex items-center justify-between px-4 md:px-6">
           <a
             href="/"
@@ -87,6 +86,7 @@ const LandingPage = () => {
               <IoLanguage size={20} />
               <span className="ml-2">{language === "ES" ? "EN" : "ES"}</span>
             </button>
+            <div className="bg-gray-300 w-[1px] h-5 "></div>
             <a
               href="/login"
               className="text-gray-700 hover:text-blue-600 transition"
@@ -97,10 +97,10 @@ const LandingPage = () => {
         </div>
       </nav>
 
-      <header className="header-background flex h-[90vh] items-center justify-center relative mt-[4rem]">
+      <header className=" flex h-[90vh] header-background items-center justify-center relative mt-[4rem] bg-cover bg-center" >
         <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl font-bold md:text-6xl">
-            Bienvenido E-Numbers
+            Bienvenido a E-Numbers
           </h1>
           <p className="mt-4 text-lg md:text-xl">
             Una empresa especializada en Estrategias Financieras y Fiscales
@@ -183,10 +183,9 @@ const LandingPage = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Visión</h3>
                 <p className="text-gray-700">
-                  Ser la firma de consultoría financiera y fiscal más confiable
-                  y reconocida en la región, innovando continuamente para
-                  ofrecer las mejores soluciones a nuestros clientes y
-                  contribuir al desarrollo económico.
+                  Ser líderes en el ámbito de la consultoría financiera y fiscal,
+                  reconocidos por nuestra excelencia, innovación y compromiso con
+                  la satisfacción del cliente.
                 </p>
               </div>
             </div>
@@ -194,21 +193,81 @@ const LandingPage = () => {
         </div>
       </section>
 
-      <footer className="bg-blue-600 text-white py-8">
+      <section id="contact" className="py-16 bg-gray-200">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="flex items-center space-x-4">
+          <h2 className="text-3xl font-semibold text-center mb-8 text-gray-800">
+            Contacto
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center">
+            <div className="bg-white rounded-lg shadow-lg p-6 mb-8 md:mb-0 md:w-1/2 lg:w-1/3">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Síguenos en WhatsApp</h3>
               <a
-                href="#"
-                className="text-white flex items-center gap-2 hover:text-gray-300"
+                href="https://wa.me/1234567890"
+                className="flex items-center text-green-500 hover:text-green-600 transition"
               >
-                <FaWhatsapp size={20} /> <span>Whatsapp</span>
+                <FaWhatsapp size={24} className="mr-2" />
+                Enviar mensaje
               </a>
             </div>
+            <div className="bg-white rounded-lg shadow-lg p-6 md:w-1/2 lg:w-1/3">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Contáctanos</h3>
+              <form
+                action="#"
+                method="post"
+                className="flex flex-col gap-4"
+              >
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Nombre"
+                  className="p-3 border border-gray-300 rounded-lg"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Correo electrónico"
+                  className="p-3 border border-gray-300 rounded-lg"
+                />
+                <textarea
+                  name="message"
+                  placeholder="Mensaje"
+                  rows="4"
+                  className="p-3 border border-gray-300 rounded-lg"
+                ></textarea>
+                <button
+                  type="submit"
+                  className="bg-blue-500 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105"
+                >
+                  Enviar
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <p className="text-center md:text-right mt-4 md:mt-0">
-              © 2024 E-Numbers. Todos los derechos reservados.
-            </p>
+      <footer className="bg-gray-800 text-white py-6">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-center md:text-left">
+              <p className="text-sm">
+                &copy; {new Date().getFullYear()} E-Numbers. Todos los derechos reservados.
+              </p>
+            </div>
+            <div className="flex gap-4 mt-4 md:mt-0">
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition"
+              >
+                Política de Privacidad
+              </a>
+              <a
+                href="#"
+                className="text-gray-400 hover:text-white transition"
+              >
+                Términos y Condiciones
+              </a>
+            </div>
           </div>
         </div>
       </footer>
