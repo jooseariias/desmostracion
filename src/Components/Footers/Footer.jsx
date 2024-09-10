@@ -18,16 +18,16 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Enlaces</h4>
             <nav className="space-y-2">
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Inicio
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Sobre Nosotros
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Servicios
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Contacto
               </a>
             </nav>
@@ -35,16 +35,16 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Recursos</h4>
             <nav className="space-y-2">
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Blog
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Preguntas Frecuentes
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Política de Privacidad
               </a>
-              <a href="#" className="hover:text-primary" prefetch={false}>
+              <a href="#" className="hover:text-primary" >
                 Términos de Uso
               </a>
             </nav>
