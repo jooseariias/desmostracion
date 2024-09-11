@@ -26,8 +26,8 @@ export default function RegisterCode() {
   return (
     <div>
       <NavBarLogin />
-      <section className="relative flex justify-center items-center h-screen bg-gray-100">
-        <div className="relative z-10 flex flex-col justify-center items-center w-[90%] md:w-[60%] lg:w-[40%] gap-4 p-8 md:p-16 bg-white rounded-lg shadow-lg">
+      <section className="relative pt-10 top-6 flex justify-center items-center h-screen bg-gray-100">
+        <div className="relative z-10 flex  flex-col justify-center items-center w-[90%] md:w-[60%] lg:w-[40%] gap-4 p-8 md:p-16 bg-white rounded-lg shadow-lg">
           <h1 className="text-3xl font-semibold mb-8 text-gray-800">
             {t("registerCode.title")}
           </h1>
