@@ -73,5 +73,16 @@
       "passwordOlvidate":"¿Olvidaste tu contraseña?",
       "recover":"Recuperar"
     }
+  },
+
+  "registerCode": {
+    "title": "Registro De Usuario",
+    "description": "Ingresa tu código de verificación para continuar con el registro.",
+    "enterCode": "Ingresa tu código de verificación",
+    "code": "Código de verificación",
+    "register": "Registrar",
+    "email": "Ingresa tu correo electrónico",
+    "password": "Ingresa Una Contraseña Que no Olvides" 
+    
   }
 }

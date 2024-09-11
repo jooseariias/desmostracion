@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LandingPage from "@/Pages/LandingPage";
 import Login from "@/Pages/Login";
+import RegisterCode from "@/Pages/RegisterCode";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/Login" element={<Login />} />
+          <Route path="/RegisterUser" element={<RegisterCode />} />
         </Routes>
       </Router>
     </I18nextProvider>

@@ -73,5 +73,15 @@
       "password":"Password",
       "email":"Email"
     }
+  },
+  "registerCode": {
+    "title": "Register User",
+    "description": "Enter code to continue with registration.",
+    "enterCode": "Enter your verification code",
+    "code": "Verification Code",
+    "register": "Register",
+    "email": "Enter your email",
+    "password": "Enter a password you don't forget"
+    
   }
 }

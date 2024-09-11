@@ -81,7 +81,7 @@ export default function Login() {
 
             <button
               type="submit"
-              className="w-full bg-[#a4caec] hover:bg-[#90bce5] text-white font-semibold py-2 rounded-md transition duration-300"
+              className="w-full bg-[#a4caec] hover:bg-[#4495e0] text-white font-semibold py-2 rounded-md transition duration-300"
             >
               {t("contact.form.enter")}
             </button>
